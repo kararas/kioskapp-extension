@@ -1,0 +1,11 @@
+{
+  "name": "特定プリンター印刷拡張",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "printing" 
+  ],
+  "background": {
+    "service_worker": "background.js"
+  } 
+}
